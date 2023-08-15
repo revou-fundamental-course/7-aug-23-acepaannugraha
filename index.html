@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kalkulator segitiga</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- header section start -->
+    <header>
+        <h1>kalkulator Segitiga</h1>
+        <div class="tab">
+            <button class="tab1" id="kelilingTab">Keliling</button>
+            <button class="tab2" id="luasTab">Luas</button>
+        </div>
+    </header>
+    <!-- header section end -->
+
+    
+    <!-- main section start -->
+    <main>
+        <section class="head">
+            <h1>REVOU FUNDAMENTAL COURSE SOFTWARE ENGINEERING  SUBMITION</h1>
+            <P>Project ini dibuat untuk memenuhi tugas course mingguan, berupa kalkulator sederhana untuk menghitung luas dan keliling segitiga. menggunakan teknoligi html css dan javascript.</P>
+        </section>
+        
+        <div class="container">
+            <section class="hero">
+                <img src="assets/sg3.png" alt="segitiga">
+            </section>
+
+            <section>
+                <form id="kelilingSection">
+                    <div class="inputkeliling">
+                        <label for="s1">S</label>
+                        <input type="number" id="s1" placeholder="0">
+    
+                        <label for="s2">S</label>
+                        <input type="number" id="s2" placeholder="0">
+    
+                        <label for="s3">S</label>
+                        <input type="number" id="s3" placeholder="0">
+                    </div>
+                </form>
+            </section>
+            
+            <section>
+                <form id="luasSection">
+                    <div class="inputluas">
+                        <label for="alas">A</label>
+                        <input type="number" id="alas" placeholder="0">
+                        
+                        <label for="tinggi">T</label>
+                        <input type="number" id="tinggi" placeholder="0">
+                        
+                    </div>
+                </form>
+            </section>
+            
+            <section class="btn-container">
+                <button class="btn" id="calculatekeliling">Hitung</button>
+                <button class="btn" id="calculateluas">Hitung</button>
+                <button class="btn" id="resetButton">Reset</button>
+                <p id="result"></p>
+            </section>
+
+            <section class="rumuskeliling" id="rumuskeliling">
+                <p>K = S + S + S</p>
+                <ul>
+                    <li>K = Keliling</li>
+                    <li>S = Sisi</li>
+                </ul>
+            </section>
+
+            <section class="rumusluas" id="rumusluas">
+                <p>L = 1/2 x A x T</p>
+                <br>
+                <ul>
+                    <li>L = Luas</li>
+                    <li>A = Alas</li>
+                    <li>T = Tinggi</li>
+                </ul>
+            </section>
+        </div>
+    </main>
+
+    <div class="logo">
+        <img src="assets/logo.png" alt="logo" class="revou">
+    </div>
+    <!-- main section end -->
+
+    <!-- footer -->
+    <footer>
+        <p>&copy;2023 kalkulator segitiga | mini project submition</p>
+        <p>crapted with❤️by Acep Aan Nugraha</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
